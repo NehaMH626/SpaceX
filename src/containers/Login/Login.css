@@ -1,0 +1,96 @@
+.app-icon {
+  height: 76px;
+  filter: invert(1);
+}
+.MuiAppBar-colorPrimary {
+  background-image: linear-gradient(45deg, #000000, #464646);
+}
+.icons {
+  padding: 10px;
+}
+.login-panel {
+  background-image: url("../../images/login-cover-image.webp");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.login-body {
+  position: absolute;
+  margin-top: 35vh;
+  margin-left: 14vw;
+  width: "18rem";
+}
+
+Button {
+  width: 100%;
+}
+
+.radio-btn {
+  /* padding: 6px; */
+  padding-right: 90px;
+}
+.radio {
+  display: inline-block;
+  margin-right: 1vw;
+}
+.card-body {
+  background: #f1f1f1;
+  background-image: linear-gradient(45deg, #d2d2d2, #f9f9f9);
+}
+.radio-input {
+  margin-right: 5px;
+}
+
+/* PageLoader */
+div._loading_overlay_wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+/* Side nav Bar */
+.sidenav {
+  margin-top: 76px;
+  height: 100%;
+  width: 20vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1a2348;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav ul > li > a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  display: block;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.sidenav a:hover {
+  color: #d2d2d2;
+  background-color: #794e32;
+}
+
+.active {
+  color: #d2d2d2;
+  background-color: #7c471a;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}

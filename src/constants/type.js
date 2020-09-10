@@ -1,0 +1,17 @@
+export const GET_ERROR = "GET_ERROR";
+export const ALL_LAUNCHES = "ALL_LAUNCHES";
+export const UPCOMING_LAUNCHES = "UPCOMING_LAUNCHES";
+export const PAST_LAUNCHES = "PAST_LAUNCHES";
+export const LATEST_LAUNCHES = "LATEST_LAUNCHES";
+export const NEXT_LAUNCHES = "NEXT_LAUNCHES";
+export const ONE_LAUNCHE = "ONE_LAUNCHE";
+
+export const ALL_HISTORY_EVENTS = "ALL_HISTORY_EVENTS";
+export const ONE_HISTORY_EVENT = "ONE_HISTORY_EVENT";
+
+export const COMPANY = "COMPANY";
+
+export const ALL_MISSIONS = "ALL_MISSIONS";
+export const ONE_MISSION = "ONE_MISSION";
+
+export const LOADER = "LOADER";
